@@ -15,5 +15,13 @@ def twoSum(nums, target):
             retList.append(index + 1 + nums[(index + 1):].index(target - num))
     return retList
 
+def twoSumNew(nums, target):
+    dict_new = {}
+    for k, v in enumerate(nums):
+        if target - v in dict_new:
+            return dict_new[target - v], k
+        else:
+            dict_new[v] = k
+
 
 print(twoSum(nums=[2, 7, 11, 15], target=9))
