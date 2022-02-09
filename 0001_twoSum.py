@@ -15,6 +15,7 @@ def twoSum(nums, target):
             retList.append(index + 1 + nums[(index + 1):].index(target - num))
     return retList
 
+
 def twoSumNew(nums, target):
     dict_new = {}
     for k, v in enumerate(nums):
