@@ -26,7 +26,7 @@ def length_of_longest_substring(s):
 
 
 if __name__ == '__main__':
-    s = "abcabcbb"
+    test_s = "abcabcbb"
 
-    ret = length_of_longest_substring(s)
+    ret = length_of_longest_substring(test_s)
     print(ret)
