@@ -26,7 +26,9 @@ def count_k_difference_other(nums, k):
 if __name__ == '__main__':
     test_nums = [7, 7, 8, 3, 1, 2, 7, 2, 9, 5]
     test_k = 6
+
     ret = count_k_difference(test_nums, test_k)
     print(ret)
+
     ret = count_k_difference_other(test_nums, test_k)
     print(ret)
